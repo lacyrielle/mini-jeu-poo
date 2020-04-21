@@ -30,8 +30,20 @@ def test3
 	player1.show_state    
 end
 
+def test4
+	puts "test4"
+	player1 = Player.new("Josiane")
+	puts player1
+	player2 = Player.new("José")
+	puts player2
+	player1.attacks(player2)
+	player2.show_state
+	player1.show_state
+end
+
 
 #test1
 #test2
-test3
+#test3
+test4
 
